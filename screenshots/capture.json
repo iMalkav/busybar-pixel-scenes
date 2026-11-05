@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-11-05T13:53:34.696682+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.pixel_scenes",
+    "name": "Pixel Scenes",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Animated pixel landscapes for your desk.",
+    "heap_size_kib": 256,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "scene": "mountains",
+      "speed": 2,
+      "accent": "#FFB86C",
+      "paused": false
+    }
+  },
+  "inputs": [],
+  "data_note": "Schema default settings.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "352faba7fd100503651f3e81c94e9ce5266ac1feb67933fd7c7cb12eca28c5e9",
+      "png_sha256": "29f70d9b41d62138a007beb9dd4dff6844d144d2df0fddb0e6499d2784cd1b1d"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "66f24d2049aafb1147b1c48bd73aaf9c64af02e6e8a70d3c39fba8286a43bf1f",
+      "png_sha256": "4c607b2829434bf73a6884e58962719bacc00d4be3b2e59965e3f6fb30adf2e9"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
